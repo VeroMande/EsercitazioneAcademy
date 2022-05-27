@@ -9,7 +9,7 @@ Prima di tutto è necessario scaricare i pacchetti tramite il comando npm instal
 # BackEnd
 Il framework utilizzato è SpringBoot e il database è postgres. Ho implementato le operazioni CRUD. Purtroppo non sono riuscita a risolvere un problema: quando provo a fare le richieste con postman mi da errore 404 not found, quindi di conseguenza non sono riuscita a creare una connessione con il frontend. 
 Comandi di creazione tabella database:
-CREATE TABLE promemoria ( \\
+CREATE TABLE promemoria ( 
         id NOT NULL ,
         testo NOT NULL,
         dataScadenza NOT NULL,
